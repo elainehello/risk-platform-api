@@ -1,0 +1,12 @@
+[package]
+name = "ingestion-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+metrics = { workspace = true }
+shared-utils = { path = "../../shared/utils" }
+shared-types = { path = "../../shared/types" }

@@ -1,0 +1,11 @@
+[package]
+name = "shared-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+metrics = { workspace = true }
+metrics-exporter-prometheus = { workspace = true }
+once_cell = { workspace = true }

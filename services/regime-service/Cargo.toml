@@ -1,0 +1,17 @@
+[package]
+name = "regime-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+metrics = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+
+shared-types = { path = "../../shared/types" }
+shared-utils = { path = "../../shared/utils" }
+shared-math = { path = "../../shared/math" }

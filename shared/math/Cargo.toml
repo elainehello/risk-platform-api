@@ -1,0 +1,9 @@
+[package]
+name = "shared-math"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+statrs = { workspace = true }
+ndarray = { workspace = true }
+serde = { workspace = true }
