@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "services/regime-service",
+    "services/volatility-service",
+    "services/shock-service",
+    "services/scoring-service",
+    "services/api-gateway",
+    "services/ingestion-service",
+    "shared/math",
+    "shared/models",
+    "shared/types",
+    "shared/config",
+    "shared/utils"
+]
+resolver = "2"
